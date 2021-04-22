@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require("mongoose");
-const port = process.env.port || 5454;
+const port = process.env.port || 9098;
 const app = express();
 const ONLINE_DB =
 "mongodb+srv://Justina:justina@cluster0.qxq3a.mongodb.net/company?retryWrites=true&w=majority"
